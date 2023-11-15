@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+  background-color: black;
+  background-image:url(/icons/static.gif)
   }
   
   #content {
@@ -8,20 +9,20 @@ body {
   
   h1 {
     font-size: 100px;
-    color: black;
+    color: white;
     font-family: trebuchet ms;
   }
   
   h2 {
     font-size: 50px;
-    color: black;
+    color: white;
     font-family: Wingdings 3;
   }
   
   p {
     font-family: trebuchet ms;
     font-size: 50px;
-    color: black;
+    color: white;
   }
   
   .button {
