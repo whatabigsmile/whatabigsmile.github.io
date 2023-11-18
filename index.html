@@ -6,20 +6,7 @@
 <link rel="icon" type="image/x-icon" href="/icons/smile.png">
 <link rel="stylesheet" href="/css/style.css">
 
-<script>
-window.onload = setInterval(GameLoop, 1000 / 10); //10fps
-
-let myAudio = new Audio();
-
-myAudio.src = '/audios/f3.ogg';
-
-function Gameloop() {
-    myAudio.play();
-    if (myAudio.paused == true) {
-        myAudio.play();
-    }
-}
-   </script>
+<embed name="f3" src="/audios/f3.ogg" loop="true" hidden="true" autostart="true">
 
   <img src="/icons/smile.png" class="leftcorner">
        
