@@ -6,11 +6,13 @@
 <link rel="icon" type="image/x-icon" href="/icons/smile.png">
 <link rel="stylesheet" href="/css/style.css">
 
-<audio class="my_audio" autoplay="true" preload="none">
-   <source src="audios/f3.mp3" type="audio/mpeg">
-   <source src="audios/f3.ogg" type="audio/ogg">
-</audio>
- 
+<audio id="my_audio" src="/audios/f3.mp3" loop="loop"></audio>
+
+<script>
+   window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+   </script>
 
   <img src="/icons/smile.png" class="leftcorner">
        
